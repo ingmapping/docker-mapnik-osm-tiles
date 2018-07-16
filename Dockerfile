@@ -134,7 +134,7 @@ VOLUME /data
 ENV PBFFile=europe/netherlands-latest.osm.pbf
 
 ENV MIN_ZOOM=0
-ENV MAX_ZOOM=6
+ENV MAX_ZOOM=16
 ENV REGION=Netherlands
 
 ENV STYLESHEET=openstreetmap-carto 
