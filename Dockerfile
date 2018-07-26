@@ -163,8 +163,8 @@ COPY /viewers/index-openstreets-nl.html /root/src/style/openstreets-nl/index-ope
 
 # Copy files for osm-blossom style
 COPY /stylesheets/osm-blossom.xml /root/src/style/osm-blossom/osm-blossom.xml
-COPY ./generate_tiles.py /root/src/style/openstreets-nl/generate_tiles.py   
-COPY /viewers/index-osm-blossom.html /root/src/style/openstreets-nl/index-osm-blossom.html  
+COPY ./generate_tiles.py /root/src/style/osm-blossom/generate_tiles.py   
+COPY /viewers/index-osm-blossom.html /root/src/style/osm-blossom/index-osm-blossom.html  
 
 ENV PGPASSWORD=mysecretpassword 
 ENV PGUSER=postgres
