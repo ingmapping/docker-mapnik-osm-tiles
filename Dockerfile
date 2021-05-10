@@ -74,8 +74,8 @@ RUN cd ~/src/style \
 # Download OSM Bright sources and polygons for osm-bright style
 RUN cd ~/src/style/osm-bright \
     && chmod a+rx ~/src/style/osm-bright \
-    && wget http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip \
-    && wget http://data.openstreetmapdata.com/land-polygons-split-3857.zip \
+    && wget https://osmdata.openstreetmap.de/download/simplified-land-polygons-complete-3857.zip \
+    && wget https://osmdata.openstreetmap.de/download/land-polygons-split-3857.zip \
     && wget http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_populated_places_simple.zip
 
 # Unpack the OSM Bright sources and polygons for osm-bright style
